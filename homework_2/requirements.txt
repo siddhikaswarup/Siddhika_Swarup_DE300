@@ -1,0 +1,6 @@
+jupyter
+pandas
+duckdb
+matplotlib
+cassandra-driver[amazon]
+boto3
