@@ -1,0 +1,7 @@
+# Use Apache Spark with Python
+FROM apache/spark-py:latest
+WORKDIR /app
+COPY . .
+
+RUN pip install pandas numpy
+CMD ["bash"]
